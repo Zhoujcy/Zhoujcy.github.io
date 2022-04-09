@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/index.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<title>世界军事要闻</title>
+		<style type="text/css">
+			body {
+				background-image: url(img/5-120601095947.png);
+			}
+			
+			.navbar {
+				background-image: linear-gradient(270deg, #abcdef 20%, #fedbca 70%);
+				;
+				border: none;
+			}
+			
+			.navbar button span {
+				background-color: #fedbca;
+			}
+			
+			.navbar li a,
+			.navbar-brand {
+				color: black !important;
+				font-family: "微软雅黑";
+				font-size: 16px;
+			}
+			
+			.dropdown-menu {
+				background-color: #ABCDEF;
+			}
+			
+			.navbar-brand {
+				color: black;
+				font-family: "楷体";
+				font-size: 26px;
+			}
+			
+			.navbar li.active a {
+				color: #000;
+				background: #FFF;
+			}
+			
+			.tab-content li a {
+				color:#ABCDEF;
+				font-family: "微软雅黑";
+				font-size: 14px;
+				line-height: 25px;
+			}
+		
+			.tab-content li {
+				list-style: none;
+			}
+			
+			.tab-content li a strong {
+				background-color: red;
+				font-family: "微软雅黑";
+				color: white;
+				font-size: 10px;
+			}
+			
+			.panel-footer a {
+				color: brown;
+				padding: 25px;
+			}
+			
+			.panel a:hover {
+				color: brown;
+			}
+			
+			.panel-title {
+				font-family: "微软雅黑";
+				font-size: 20px;
+			}
+			
+			.panel {
+				border: none;
+				margin-top: 25px;
+				text-align: center;
+			}
+			
+			.label {
+				margin-top: 5px;
+			}
+			
+			.container {
+				margin-top: 80px;
+			}
+			
+			.text-danger {
+				margin-bottom: -35px;
+				line-height: 70px;
+			}
+			
+			.panel-body li {
+				list-style: none;
+				text-align: left;
+			}
+			
+			.nav-tabs li a {
+				color: brown;
+			}
+			
+			.panel-footer p {
+				text-align: left;
+			}
+			
+			.input-group-addon a {
+				color: brown;
+			}
+			
+			.modal-footer {
+				text-align: center;
+			}
+			
+			.modal-body div {
+				margin: 20px;
+			}
+			
+			.modal-body a {
+				color: brown;
+			}
+			
+			.well a {
+				color: #5E5E5E;
+				margin: 70px;
+			}
+			
+			.well {
+				color: #5E5E5E;
+				text-align: center;
+				line-height: 35px;
+				margin-top: 50px;
+			}
+			
+			#pl a {
+				color: #5E5E5E;
+				margin-top: 12px;
+			}
+			
+			#pl img {
+				margin-bottom: 50px;
+			}
+			
+			#pl p {
+				line-height: 25px;
+				font-size: 15px;
+			}
+			
+			#hf a {
+				color: #888888;
+				font-size: 12px;
+				margin: 10px;
+				padding-left: 30px;
+			}
+			
+			h4.text-danger {
+				margin-bottom: -15px;
+			}
+			
+			li {
+				list-style: none;
+				line-height: 25px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<nav class="navbar navbar-fixed-top">
+			<div class="navbar-header">
+				<a href="#" class="navbar-brand">世界军事要闻</a>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="mynav">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active">
+						<a href="index.html">主页</a>
+					</li>
+					<li>
+						<a href="子页1.html">中国</a>
+					</li>
+					<li>
+						<a href="子页2.html">美国</a>
+					</li>
+					<li>
+						<a href="子页3.html">俄罗斯</a>
+					</li>
+					<li>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">更多
+							<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#">亚 太</a>
+							</li>
+							<li>
+								<a href="#">中 东</a>
+							</li>
+							<li>
+								<a href="#">北 欧</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a data-toggle="modal" href="#mymodal"><span class="glyphicon glyphicon-user"></span> 注册</a>
+					</li>
+					<li>
+						<a data-toggle="modal" href="#mymodal"><span class="glyphicon glyphicon-log-in"></span> 登录</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="container">
+			<div class="col-sm-7 ">
+				<div class="carousel slide" id="aa" data-ride="carousel" data-interval="2000">
+					<ol class="carousel-indicators">
+						<li class="active" data-target="#aa" data-slide-to="0"></li>
+						<li data-target="#aa" data-slide-to="1"></li>
+						<li data-target="#aa" data-slide-to="2"></li>
+						<li data-target="#aa" data-slide-to="3"></li>
+						<li data-target="#aa" data-slide-to="4"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="item active">
+							<a href="#">
+								<img src="img/印边.jpg" />
+							</a>
+							<div class="carousel-caption">
+								<h4>揭秘</h4>
+								<p>中印边境激烈冲突内幕，印军死伤惨重</p>
+							</div>
+						</div>
+						<div class="item">
+							<a href="#">
+								<img src="img/土耳其伊拉克.jpg" />
+							</a>
+							<div class="carousel-caption">
+								<h4>入侵</h4>
+								<p>土耳其对伊拉克北部库尔德工人党武装发动攻击</p>
+							</div>
+						</div>
+						<div class="item">
+							<a href="#">
+								<img src="img/朝韩.jpg" />
+							</a>
+							<div class="carousel-caption">
+								<h4>爆破</h4>
+								<p>“对话窗口”被炸没了，朝韩关系怎么走？</p>
+							</div>
+						</div>
+						<div class="item">
+							<a href="#">
+								<img src="img/美俄.jpg" />
+							</a>
+							<div class="carousel-caption">
+								<h4>拦截</h4>
+								<p>硬碰硬！美俄互相拦截对方轰炸机</p>
+							</div>
+						</div>
+						<div class="item">
+							<a href="#">
+								<img src="img/印边2.jpg" />
+							</a>
+							<div class="carousel-caption">
+								<h4>挑衅</h4>
+								<p>西部战区回应中印边境冲突：印军蓄意挑衅，造成人员伤亡</p>
+							</div>
+						</div>
+						<a class="carousel-control right" href="#aa" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right"></span>
+						</a>
+						<a class="carousel-control left" href="#aa" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-5 ">
+				<ul class="nav nav-tabs">
+					<li class="active">
+						<a href="#1" data-toggle="tab">军事要闻</a>
+					</li>
+					<li>
+						<a href="#2" data-toggle="tab">亚太局势</a>
+					</li>
+					<li>
+						<a href="#3" data-toggle="tab">中东局势</a>
+					</li>
+					<button type="button" class="btn btn-danger pull-right" data-toggle="modal" data-target="#mymodal">更多</button>
+					<div class="modal" id="mymodal">
+						<div class="modal-dialog">
+							<div class="modal-content col-sm-8 col-sm-push-2">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h3 class="text-center">请先注册！</h3>
+								</div>
+								<br />
+								<div class="modal-body">
+									<div class="input-group">
+										<span class="input-group-addon">+86</span>
+										<input type="text" placeholder="请输入手机号" class="form-control" />
+									</div>
+									<div class="input-group">
+										<input type="text" placeholder="短信验证码" class="form-control" />
+										<span class="input-group-addon"><a href="#">获取验证码</a></span>
+									</div>
+									<button type="button" class="btn btn-primary btn-group-lg btn-danger col-sm-12">注册</button>
+									<p>如该手机号未曾注册过本网账号，将为您自动注册进行注册即表示您同意并愿意遵守本军事网站
+										<a href="#">用户协议</a>和
+										<a href="#">隐私协议</a>
+									</p>
+								</div>
+								<br />
+								<div class="modal-footer">
+									<p>——— 社交账号登录 ———</p>
+									<button type="button" class="btn btn-default " data-dismiss="modal">退出</button>
+									<button type="button" class="btn btn-info ">QQ</button>
+									<button type="button" class="btn btn-info ">微信</button>
+									<button type="button" class="btn btn-info ">微博</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</ul>
+				<br />
+				<div class="tab-content">
+					<div class="tab-pane active " id="1">
+						<ul>
+							<li>
+								<a href="#"><span class="label label-danger pull-left">1</span>中印冲突背后不简单 美国“印太”战略能够得逞吗？ <strong>HOT</strong></a>
+							</li>
+							<li>
+								<a href="#"><span class="label label-success pull-left">2</span>美国智库：中国在东南亚影响力已超美国，未来10年拉开差距<strong>NEW</strong></a>
+							</li>
+							<li>
+								<a href="#"><span class="label label-info pull-left">3</span>印度在中印边境部署了多少部队？我们要时刻保持警惕</a>
+							</li>
+							<li>
+								<a href="#">
+									<a href="#"><span class="label label-default pull-left">4</span>疑似UFO？日本仙台上空出现白色不明球体 自卫队已出动</a>
+							</li>
+							<li>
+								<a href="#">
+									<a href="#"><span class="label label-default pull-left">5</span>台媒：解放军歼-10等多型军机今天再次进入台湾西南空域</a>
+							</li>
+							<li>
+								<a href="#">
+									<a href="#"><span class="label label-default pull-left">6</span>在海上躲避疫情两个月，美军“杜鲁门”号航母终于返回母港</a>
+							</li>
+							<li>
+								<a href="#">
+									<a href="#"><span class="label label-default pull-left">7</span>美国想让以色列与中国断绝关系？美媒直言：美国挡不住的</a>
+							</li>
+
+						</ul>
+					</div>
+					<div class="tab-pane " id="2">
+						<ul>
+							<li>
+								<a href="#">
+									<a href="#"><span class="label label-danger pull-left">1</span>美国智库：中国在东南亚影响力已超美国，未来10年拉开差距<strong>NEW</strong></a>
+							</li>
+							<li>
+								<a href="#">
+									<a href="#"><span class="label label-success pull-left">2</span>印度在中印边境部署了多少部队？我们要时刻保持警惕<strong>HOT</strong></a>
+							</li>
+							<li>
+								<a href="#"><span class="label label-info pull-left">3</span>疑似UFO？日本仙台上空出现白色不明球体 自卫队已出动</a>
+							</li>
+							<li>
+								<a href="#">
+									<a href="#"><span class="label label-default pull-left">4</span>台媒：解放军歼-10等多型军机今天再次进入台湾西南空域</a>
+							</li>
+							<li>
+								<a href="#">
+									<a href="#"><span class="label label-default pull-left">5</span>在海上躲避疫情两个月，美军“杜鲁门”号航母终于返回母港</a>
+							</li>
+							<li>
+								<a href="#">
+									<a href="#"><span class="label label-default pull-left">6</span>美国想让以色列与中国断绝关系？美媒直言：美国挡不住的</a>
+							</li>
+							<li>
+								<a href="#">
+									<a href="#"><span class="label label-default pull-left">7</span>中印冲突背后不简单 美国“印太”战略能够得逞吗？ </a>
+							</li>
+						</ul>
+					</div>
+					<div class="tab-pane" id="3">
+						<ul>
+							<li>
+								<a href="#">
+									<a href="#">
+										<a href="#"><span class="label label-danger pull-left">1</span>印度在中印边境部署了多少部队？我们要时刻保持警惕<strong>HOT</strong></a>
+
+							</li>
+							<li>
+								<a href="#">
+									<a href="#">
+										<a href="#"><span class="label label-success pull-left">2</span>美国智库：中国在东南亚影响力已超美国，未来10年拉开差距</a>
+							</li>
+							<li>
+								<a href="#">
+									<a href="#"><span class="label label-info pull-left">3</span>中印冲突背后不简单 美国“印太”战略能够得逞吗？ <strong>NEW</strong></a>
+
+							</li>
+							<li>
+								<a href="#">
+									<a href="#"><span class="label label-default pull-left">4</span>台媒：解放军歼-10等多型军机今天再次进入台湾西南空域</a>
+							</li>
+							<li>
+								<a href="#">
+									<a href="#"><span class="label label-default pull-left">5</span>在海上躲避疫情两个月，美军“杜鲁门”号航母终于返回母港</a>
+							</li>
+							<li>
+								<a href="#">
+									<a href="#"><span class="label label-default pull-left">6</span>美国想让以色列与中国断绝关系？美媒直言：美国挡不住的</a>
+							</li>
+							<li>
+								<a href="#">
+									<a href="#"><span class="label label-default pull-left">7</span>疑似UFO？日本仙台上空出现白色不明球体 自卫队已出动</a>
+							</li>
+							<li>
+								<a href="#">
+									<a href="#"><span class="label label-default pull-left">8</span>真空期结束，美军两航母重返西太</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<h3 class="text-danger">军事要闻</h3>
+				<hr style="height:3px;border:none;border-top:3px double brown;" />
+				<div class="col-sm-4">
+					<div class="panel panel-default">
+						<div>
+							<a href="#" class="panel-title">真空期结束，美军两航母重返西太</a>
+						</div>
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/真空期结束，美军两航母重返西太.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<a href="#"><span class="glyphicon glyphicon-eye-open"></span> 143256</a>
+							<a href="#"><span class="glyphicon glyphicon-comment"></span> 212</a>
+							<a href="#"><span class="glyphicon glyphicon-new-window"></span> 135</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="panel panel-default">
+						<div>
+							<a href="#" class="panel-title">法国在修核潜艇起火，持续14个小时</a>
+						</div>
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/法国在修核潜艇起火，持续14个小时.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<a href="#"><span class="glyphicon glyphicon-eye-open"></span> 87654</a>
+							<a href="#"><span class="glyphicon glyphicon-comment"></span> 97</a>
+							<a href="#"><span class="glyphicon glyphicon-new-window"></span> 57</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="panel panel-default">
+						<div>
+							<a href="#" class="panel-title">美军机穿航台湾岛，国防部回应</a>
+						</div>
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/美军机穿航台湾岛，国防部回应.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<a href="#"><span class="glyphicon glyphicon-eye-open"></span> 256238</a>
+							<a href="#"><span class="glyphicon glyphicon-comment"></span> 245</a>
+							<a href="#"><span class="glyphicon glyphicon-new-window"></span> 256</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="panel panel-default">
+						<div>
+							<a href="#" class="panel-title">英核潜艇差点撞上客轮，军方调查</a>
+						</div>
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/英核潜艇差点撞上客轮，军方调查.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<a href="#"><span class="glyphicon glyphicon-eye-open"></span> 146238</a>
+							<a href="#"><span class="glyphicon glyphicon-comment"></span> 165</a>
+							<a href="#"><span class="glyphicon glyphicon-new-window"></span> 136</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="panel panel-default">
+						<div>
+							<a href="#" class="panel-title">美驱逐舰昨日过台湾海峡</a>
+						</div>
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/美驱逐舰昨日过台湾海峡.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<a href="#"><span class="glyphicon glyphicon-eye-open"></span> 876238</a>
+							<a href="#"><span class="glyphicon glyphicon-comment"></span> 1345</a>
+							<a href="#"><span class="glyphicon glyphicon-new-window"></span> 456</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 ">
+					<div class="panel panel-default">
+						<div>
+							<a href="#" class="panel-title">台军：解放军多架苏-30进入台西南空域</a>
+						</div>
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/台军：解放军多架苏-30战机进入台湾西南空域.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<a href="#"><span class="glyphicon glyphicon-eye-open"></span> 556238</a>
+							<a href="#"><span class="glyphicon glyphicon-comment"></span> 945</a>
+							<a href="#"><span class="glyphicon glyphicon-new-window"></span> 356</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<h3 class="text-danger">军武荟萃</h3>
+				<hr style="height:3px;border:none;border-top:3px double brown;" />
+				<h4 class="text-center">部分全球顶尖武器</h4>
+				<div class="panel-group col-sm-4" id="accordion">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" 
+				   href="#zhe1">
+					飞行器
+				</a>
+			</h4>
+						</div>
+						<div id="zhe1" class="panel-collapse collapse in">
+							<div class="panel-body">
+								<ul>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-danger ">1</span>歼-20</a>
+									</li>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-success ">2</span>F-22猛禽</a>
+									</li>
+									<li>
+										<a href="#"><span class="label label-info ">3</span>运-20</a>
+									</li>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-default ">4</span>C-17环球霸王Ⅲ</a>
+									</li>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-default ">5</span>歼-15</a>
+									</li>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-default ">6</span>歼-16</a>
+									</li>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-default ">7</span>歼-10 </a>
+									</li>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-default ">8</span>F-15SE沉默鹰 </a>
+									</li>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-default ">9</span>F-15E打击鹰 </a>
+									</li>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-default ">10</span>F-35闪电</a>
+									</li>
+								</ul>
+
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+				<a data-toggle="collapse" data-parent="#accordion" 
+				   href="#zhe2">
+					舰船舰艇
+				</a>
+			</h4>
+						</div>
+						<div id="zhe2" class="panel-collapse collapse">
+							<div class="panel-body">
+								<ul>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-danger ">1</span>094型/晋级</a>
+									</li>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-success ">2</span>052C型（旅洋Ⅱ级）</a>
+									</li>
+									<li>
+										<a href="#"><span class="label label-info ">3</span>辽宁舰/瓦良格/Varyag</a>
+									</li>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-default ">4</span>杰拉尔德·R·福特号航空母舰</a>
+									</li>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-default ">5</span>052D型（旅洋III级）</a>
+									</li>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-default ">6</span>054A型</a>
+									</li>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-default ">7</span>CVN-72/林肯号/Lincoln</a>
+									</li>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-default ">8</span>“阿利·伯克”级 </a>
+									</li>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-default ">9</span>“提康德罗加”级 </a>
+									</li>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-default ">10</span>“库兹涅佐夫海军上将”级</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+				<a data-toggle="collapse" data-parent="#accordion" 
+				   href="#zhe3">
+					枪械与单兵作战武器
+				</a>
+			</h4>
+						</div>
+						<div id="zhe3" class="panel-collapse collapse">
+							<div class="panel-body">
+								<ul>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-danger ">1</span>赫克勒-科赫G36自动步枪</a>
+									</li>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-success ">2</span>沙漠之鹰手枪</a>
+									</li>
+									<li>
+										<a href="#"><span class="label label-info ">3</span>斯太尔-曼利夏AUG自动步枪</a>
+									</li>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-default ">4</span>赫克勒-科赫G3自动步枪</a>
+									</li>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-default ">5</span>塔沃尔突击步枪</a>
+									</li>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-default ">6</span>AK-47突击步枪</a>
+									</li>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-default ">7</span>赫克勒-科赫HK 416自动步枪 </a>
+									</li>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-default ">8</span>卡拉什尼科夫1974(AK-74)突击步枪 </a>
+									</li>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-default ">9</span>95式步枪</a>
+									</li>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-default ">10</span>柯尔特M1911/M1911A1手枪</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+				<a data-toggle="collapse" data-parent="#accordion" 
+				   href="#zhe4">
+					坦克装甲车辆排行
+				</a>
+			</h4>
+						</div>
+						<div id="zhe4" class="panel-collapse collapse">
+							<div class="panel-body">
+								<ul>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-danger ">1</span>96A主战坦克</a>
+									</li>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-success ">2</span>99式主战坦克</a>
+									</li>
+									<li>
+										<a href="#"><span class="label label-info ">3</span>T-90主战坦克</a>
+									</li>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-default ">4</span>M1A1/M1A2“艾布拉姆斯”</a>
+									</li>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-default ">5</span>豹-II主战坦克</a>
+									</li>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-default ">6</span>AMX-56主战坦克</a>
+									</li>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-default ">7</span>“挑战者”-1主战坦克 </a>
+									</li>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-default ">8</span>“梅卡瓦”坦克</a>
+									</li>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-default ">9</span>AAAV先进两栖突击车</a>
+									</li>
+									<li>
+										<a href="#">
+											<a href="#"><span class="label label-default ">10</span>悍马Hummer</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="panel panel-default">
+						<div>
+							<a href="#" class="panel-title">歼-20</a>
+						</div>
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/歼-20.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#j20">详细介绍</button>
+							<div id="j20" class="collapse">
+								<p>歼-20(J-20)，绰号“威龙”，北约代号“火牙”（FIRE FANG）。是成都飞机工业集团为中国人民解放军研制的最新一代（欧美旧标准为第四代，新标准以及俄罗斯标准为第五代）双发重型隐形战斗机，用于接替歼10、歼11等第三代空中优势/多用途歼击机的未来重型歼击机型号，该机将担负我军未来对空、对海的主权维护任务。预计歼-20将在2017~2019年间投入使用，2020年后逐步形成战斗力。首架原型机于2011年1月11日在成都实现首飞。 </p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="panel panel-default">
+						<div>
+							<a href="#" class="panel-title">F-22猛禽</a>
+						</div>
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/F-22猛禽.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#f22">详细介绍</button>
+							<div id="f22" class="collapse">
+								<p>F22“猛禽”（英语：F-22 Raptor）战斗机是由美国洛克希德·马丁和波音联合研制的单座双发高隐身性第五代战斗机，也是世界上第一种进入服役的第五代战斗机。F-22于2000年代中期陆续进入美国空军服役，以取代上一代的主力机种F-15鹰式战斗机。洛克希德·马丁为主承包商，负责设计大部分机身、武器系统和F-22的最终组装。计划合作伙伴波音则提供机翼、后机身、航空电子综合系统和培训系统。2014年9月22日据美国五角大楼宣布，F22首次投入实战，参加对叙利亚ISIS的打击。 </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="panel panel-default">
+						<div>
+							<a href="#" class="panel-title">LCA光辉战斗机</a>
+						</div>
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/LCA.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#lca">详细介绍</button>
+							<div id="lca" class="collapse">
+								<p>名称：LCA战斗机 首飞时间：2001年 研发单位：印度HAL公司 气动布局：后掠翼 发动机数量：单发 飞行速度：超音速 关注度： (4.2分) 武器装备 （1）23毫米双管机炮（220 发炮弹）。 （2）七个外挂发射点，可发射空空、空地、空舰导弹、无制导火箭、反坦克炸弹、常规炸弹。 技术数据 乘员：2人 机长：13.2米 翼展：8.2米 机高：4.4米 空重：6,500千克 最大起飞重量：8,500千克 性能数据 最大飞行速度：1,576.4千米每小时
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="panel panel-default">
+						<div>
+							<a href="#" class="panel-title">苏-30侧卫</a>
+						</div>
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/苏-30侧卫.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#s30">详细介绍</button>
+							<div id="s30" class="collapse">
+								<p>名称：苏-30/苏-33“侧卫” 制空战斗机和对地攻击机 首飞时间：1989年 研发单位：苏霍伊设计局 气动布局：后掠翼 发动机数量：双发 飞行速度：超音速 关注度： (4.8分) 武器装备 （1）内置武器：1门30毫米GSH-30-1机炮； （2）挂载点：10个(外加翼尖挂载点)； （3）最大载弹量：8000千克(17635磅)； （4）典型武器：空对空导弹、(R-27“白杨”、R-73“射手”、R-77“蝰蛇”)；空对地导弹(Kh-29、Kh-31、Kh-59)；Raduga 3M80E反舰导弹；常规炸弹；火箭；外挂式油箱。 技术数据 乘员：2人 机长：22.93米 翼展：14.7米 机高：6.36米 空重：17,700千克 发动机：2台AL-31FL 涡轮风扇发动机 最大起飞重量：34,500千克 性能数据 最大飞行速度：2,500千米每小时 最大航程：3,000千米
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<h3 class="text-danger">专家视角</h3>
+				<hr style="height:3px;border:none;border-top:3px double brown;" />
+				<div class="col-sm-6">
+					<div class="panel panel-default">
+						<div>
+							<a href="#" class="panel-title  pull-left">一周军评：美国3航母能转移国内矛盾么？</a>
+						</div>
+						<div class="panel-body pull-left">
+							<a href="#">
+								<img src="img/member1.jpg" width="20%" class=" pull-left" data-toggle="tooltip"
+        data-placement="bottom" title="点击进入我的主页与我交流"/>
+								<a href="#">张大校</a><br />
+								<p>知名军事专家、退伍军官。</p>
+							</a>
+						</div>
+						<div class="panel-footer pull-left">
+							<p>相比上半年的“空城计”，今年夏天西太平洋美军的“兵强马壮”无疑不是好消息。目前，特朗普正遭遇任内最严峻的政治危机，通过制造外部矛盾吸引公众注意力，甚至转嫁本国危机，是一种常见的手段，恰好特朗普又是一位为了连任，什么事情都可能干得出来的美国总统。
+								<a href="#">[全文]</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="panel panel-default">
+						<div>
+							<a href="#" class="panel-title  pull-left">美国超音速战略轰炸机窜入南海，有多大威胁？</a>
+						</div>
+						<div class="panel-body pull-left">
+							<a href="#">
+								<img src="img/member2.jpg" width="20%" class=" pull-left" data-toggle="tooltip"
+        data-placement="bottom" title="点击进入我的主页与我交流"/>
+								<a href="#">王教授</a><br />
+								<p>知名军事专家、本站特约评论员。</p>
+							</a>
+						</div>
+						<div class="panel-footer pull-left">
+							<p>美国派B-1B到中国东南沿海显示力量，用意很明显，但也是注定要失败的。中国必须在战术上重视，但在战略上是有足够资本藐视的。
+								<a href="#">[全文]</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<h3 class="text-danger">留言评论</h3>
+				<hr style="height:3px;border:none;border-top:3px double brown;" />
+				<div class="col-sm-8">
+					<div id="pl">
+						<a href="#">
+							<img src="img/member3.jpg" width="5%" class="img-circle person  pull-left " />
+							<a href="#" class="pull-left">全知全能的路人<span class="label label-danger ">VIP</span></a>
+						</a>
+						<p><br /><br />不会吧不会吧，不会真的有印吹吧？别恶心我。</p>
+						<div id="hf">
+							<a href="#">查看回复</a>
+							<a href="#">举报</a>
+							<a href="#">分享</a>
+							<a href="#">回复(9)</a>
+							<a href="#">赞👍(13)</a>
+							<a href="#">踩👎(2)</a>
+							<a href="#" class="pull-right">06-19 12:58</a>
+						</div>
+						<hr style="height:1px;border:none;border-top:1px dotted #ADADAD;" />
+					</div>
+					<div id="pl">
+						<a href="#">
+							<img src="img/member2.jpg" width="5%" class="img-circle person  pull-left " />
+							<a href="#" class="pull-left">不愿透露姓名的小王</a>
+						</a>
+						<p><br /><br />警惕和平演变！</p>
+						<div id="hf">
+							<a href="#">查看回复</a>
+							<a href="#">举报</a>
+							<a href="#">分享</a>
+							<a href="#">回复(5)</a>
+							<a href="#">赞👍(7)</a>
+							<a href="#">踩👎(2)</a>
+							<a href="#" class="pull-right">06-19 10:17</a>
+						</div>
+						<hr style="height:1px;border:none;border-top:1px dotted #ADADAD;" />
+					</div>
+					<div id="pl">
+						<a href="#">
+							<img src="img/member1.jpg" width="5%" class="img-circle person  pull-left " />
+							<a href="#" class="pull-left">自然如此<span class="label label-danger ">VIP</span></a>
+						</a>
+						<p><br /><br />等祖国统一了，解放军就可以改名国防军了。</p>
+						<div id="hf">
+							<a href="#">查看回复</a>
+							<a href="#">举报</a>
+							<a href="#">分享</a>
+							<a href="#">回复(13)</a>
+							<a href="#">赞👍(25)</a>
+							<a href="#">踩👎(2)</a>
+							<a href="#" class="pull-right">06-19 9:47</a>
+						</div>
+						<hr style="height:1px;border:none;border-top:1px dotted #ADADAD;" />
+					</div>
+					<div id="pl">
+						<a href="#">
+							<img src="img/member2.jpg" width="5%" class="img-circle person  pull-left " />
+							<a href="#" class="pull-left">随他去吧<span class="label label-danger ">VIP</span></a>
+						</a>
+						<p><br /><br />印吹是什么成分不用我多说了吧。</p>
+						<div id="hf">
+							<a href="#">查看回复</a>
+							<a href="#">举报</a>
+							<a href="#">分享</a>
+							<a href="#">回复(15)</a>
+							<a href="#">赞👍(23)</a>
+							<a href="#">踩👎(4)</a>
+							<a href="#" class="pull-right">06-19 8:25</a>
+						</div>
+						<hr style="height:1px;border:none;border-top:1px dotted #ADADAD;" />
+					</div>
+					<div id="pl">
+						<a href="#">
+							<img src="img/member3.jpg" width="5%" class="img-circle person  pull-left " />
+							<a href="#" class="pull-left">坏了，出事了<span class="label label-danger ">LV:9</span></a>
+						</a>
+						<p><br /><br />不会真的有人喜欢印度吧？</p>
+						<div id="hf">
+							<a href="#">查看回复</a>
+							<a href="#">举报</a>
+							<a href="#">分享</a>
+							<a href="#">回复(33)</a>
+							<a href="#">赞👍(45)</a>
+							<a href="#">踩👎(16)</a>
+							<a href="#" class="pull-right">06-18 21:47</a>
+						</div>
+						<hr style="height:1px;border:none;border-top:1px dotted #ADADAD;" />
+					</div>
+					<textarea class="form-control" placeholder="参加讨论..." rows="5"></textarea><br>
+					<button class="btn btn-info pull-right" type="submit">发表</button>
+				</div>
+				<div class="col-sm-4">
+					<h4 class="text-danger">国内热门话题</h4>
+					<ul>
+						<li>
+							<a href="#"><span class="label label-danger pull-left">1</span>77集团军某旅在高原腹地考核 武直对目标实施模拟攻击</a>
+						</li>
+						<li>
+							<a href="#"><span class="label label-success pull-left">2</span>解放军高原实战化演练引关注 “00后”装备高原“亮剑”</a>
+						</li>
+						<li>
+							<a href="#"><span class="label label-info pull-left">3</span>直击第七十五集团军某旅等级评定考核 牵引训练向实战聚焦</a>
+						</li>
+					</ul>
+					<h4 class="text-danger">国际热门话题</h4>
+					<ul>
+						<li>
+							<a href="#"><span class="label label-danger pull-left">1</span>刚重新返回部署半个月 “罗斯福”号航母突发舰载机坠海事故</a>
+						</li>
+						<li>
+							<a href="#"><span class="label label-success pull-left">2</span>美国国防部发布新版太空防御战略 声称要确保“制天权”</a>
+						</li>
+						<li>
+							<a href="#"><span class="label label-info pull-left">3</span>北约与俄罗斯“脸贴脸”演习 擦枪走火危险系数大增</a>
+						</li>
+					</ul>
+					<h4 class="text-danger">快讯</h4>
+					<ul>
+						<li>
+							<a href="#"><span class="label label-danger pull-left">1</span>西部战区总医院：以战领训 夜间模拟实战救护训练</a>
+						</li>
+						<li>
+							<a href="#"><span class="label label-success pull-left">2</span>9天内第5次 解放军战机今天上午进入台湾空域，台如何回应？</a>
+						</li>
+						<li>
+							<a href="#"><span class="label label-info pull-left">3</span>印度在中印边境部署了多少部队？我们要时刻保持警惕</a>
+						</li>
+						<li>
+							<a href="#">
+								<a href="#"><span class="label label-default pull-left">4</span>疑似UFO？日本仙台上空出现白色不明球体 自卫队已出动</a>
+						</li>
+						<li>
+							<a href="#">
+								<a href="#"><span class="label label-default pull-left">5</span>台媒：解放军歼-10等多型军机今天再次进入台湾西南空域</a>
+						</li>
+						<li>
+							<a href="#">
+								<a href="#"><span class="label label-default pull-left">6</span>在海上躲避疫情两个月，美军“杜鲁门”号航母终于返回母港</a>
+						</li>
+						<li>
+							<a href="#">
+								<a href="#"><span class="label label-default pull-left">7</span>美国想让以色列与中国断绝关系？美媒直言：美国挡不住的</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="well">
+			<p>
+				<a href="子页4.html">联系我们</a>
+				<a href="子页4.html">关于我们</a>
+				<a href="子页4.html">版权声明</a>
+				<a href="子页4.html">服务条款</a> <br /> Copyright © 2020-2020 by 周锦城。<br />计应1952周锦城作业 ，如有侵权望告知 </p>
+		</div>
+		<script>
+    $(function () { $("[data-toggle='tooltip']").tooltip(); });
+</script>
+	</body>
+</html>

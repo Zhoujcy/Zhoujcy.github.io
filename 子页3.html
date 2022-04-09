@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/index.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<title>俄罗斯军事实力</title>
+		<style type="text/css">
+			body {
+				background-image: url(img/5-1206010T011-50.gif);
+			}
+			
+			.navbar {
+				background-image: linear-gradient(270deg, #abcdef 20%, #fedbca 70%);
+				;
+				border: none;
+			}
+			
+			.navbar button span {
+				background-color: #fedbca;
+			}
+			
+			.navbar li a,
+			.navbar-brand {
+				color: black !important;
+				font-family: "微软雅黑";
+				font-size: 16px;
+			}
+			
+			.dropdown-menu {
+				background-color: #ABCDEF;
+			}
+			
+			.navbar-brand {
+				color: black;
+				font-family: "楷体";
+				font-size: 26px;
+			}
+			
+			.navbar li.active a {
+				color: #000;
+				background: #FFF;
+			}
+			
+			.tab-content li a {
+				color:#ABCDEF;
+				font-family: "微软雅黑";
+				font-size: 14px;
+				line-height: 25px;
+			}
+			
+			.tab-content li {
+				list-style: none;
+			}
+			
+			.tab-content li a strong {
+				background-color: red;
+				font-family: "微软雅黑";
+				color: white;
+				font-size: 10px;
+			}
+			
+			.panel-footer a {
+				color: brown;
+				padding: 25px;
+			}
+			
+			.panel a:hover {
+				color: brown;
+			}
+			
+			.panel-title {
+				font-family: "微软雅黑";
+				font-size: 20px;
+			}
+			
+			.panel {
+				border: none;
+				margin-top: 25px;
+				text-align: center;
+			}
+			
+			.label {
+				margin-top: 5px;
+			}
+			
+			.container {
+				margin-top: 80px;
+			}
+			
+			.text-danger {
+				margin-bottom: -35px;
+				line-height: 70px;
+			}
+			
+			.panel-body li {
+				list-style: none;
+				text-align: left;
+			}
+			
+			.nav-tabs li a {
+				color: brown;
+			}
+			
+			.panel-footer p {
+				text-align: left;
+			}
+			
+			.input-group-addon a {
+				color: brown;
+			}
+			
+			.modal-footer {
+				text-align: center;
+			}
+			
+			.modal-body div {
+				margin: 20px;
+			}
+			
+			.modal-body a {
+				color: brown;
+			}
+			
+			.well a {
+				color: #5E5E5E;
+				margin: 70px;
+			}
+			
+			.well {
+				color: #5E5E5E;
+				text-align: center;
+				line-height: 35px;
+				margin-top: 50px;
+			}
+			
+			#pl a {
+				color: #5E5E5E;
+				margin-top: 12px;
+			}
+			
+			#pl img {
+				margin-bottom: 50px;
+			}
+			
+			#pl p {
+				line-height: 25px;
+				font-size: 15px;
+			}
+			
+			#hf a {
+				color: #888888;
+				font-size: 12px;
+				margin: 10px;
+				padding-left: 30px;
+			}
+			
+			h4.text-danger {
+				margin-bottom: -15px;
+			}
+			
+			li {
+				list-style: none;
+				line-height: 25px;
+			}
+			#jj{
+				line-height: 35px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<nav class="navbar navbar-fixed-top">
+			<div class="navbar-header">
+				<a href="#" class="navbar-brand">俄罗斯军事实力</a>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="mynav">
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a href="index.html">主页</a>
+					</li>
+					<li>
+						<a href="子页1.html">中国</a>
+					</li>
+					<li>
+						<a href="子页2.html">美国</a>
+					</li>
+					<li class="active">
+						<a href="子页3.html">俄罗斯</a>
+					</li>
+					<li>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">更多
+							<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#">亚 太</a>
+							</li>
+							<li>
+								<a href="#">中 东</a>
+							</li>
+							<li>
+								<a href="#">北 欧</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a data-toggle="modal" href="#mymodal"><span class="glyphicon glyphicon-user"></span> 注册</a>
+					</li>
+					<li>
+						<a data-toggle="modal" href="#mymodal"><span class="glyphicon glyphicon-log-in"></span> 登录</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="container">
+			<img src="img/子页3.jpg" />
+			<div class="row">
+
+			</div>
+			<div class="modal" id="mymodal">
+				<div class="modal-dialog">
+					<div class="modal-content col-sm-8 col-sm-push-2">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h3 class="text-center">请先注册！</h3>
+						</div>
+						<br />
+						<div class="modal-body">
+							<div class="input-group">
+								<span class="input-group-addon">+86</span>
+								<input type="text" placeholder="请输入手机号" class="form-control" />
+							</div>
+							<div class="input-group">
+								<input type="text" placeholder="短信验证码" class="form-control" />
+								<span class="input-group-addon"><a href="#">获取验证码</a></span>
+							</div>
+							<button type="button" class="btn btn-primary btn-group-lg btn-danger col-sm-12">注册</button>
+							<p>如该手机号未曾注册过本网账号，将为您自动注册进行注册即表示您同意并愿意遵守本军事网站
+								<a href="#">用户协议</a>和
+								<a href="#">隐私协议</a>
+							</p>
+						</div>
+						<br />
+						<div class="modal-footer">
+							<p>——— 社交账号登录 ———</p>
+							<button type="button" class="btn btn-default " data-dismiss="modal">退出</button>
+							<button type="button" class="btn btn-info ">QQ</button>
+							<button type="button" class="btn btn-info ">微信</button>
+							<button type="button" class="btn btn-info ">微博</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<h3 class="text-danger">海军武器装备展示</h3>
+				<hr style="height:3px;border:none;border-top:3px double brown;" />
+				<h4 class="col-sm-8 " id="jj">俄罗斯海军（俄语：Военно-морской Флот Российской Федерации，英语：Military-Maritime Fleet of the Russian Federation）成立于1696年7月1日，是一支历史悠久的部队，其背景可上溯至彼得大帝时代，现有部队建立于前苏联海军的基础之上，其主力装备包括一艘1143.5-6型航空母舰（库兹涅佐夫海军元帅号航空母舰）、1144型巡洋舰（基洛夫级巡洋舰）、1155型反潜舰（无畏级驱逐舰）、956型驱逐舰（现代级驱逐舰）、20380型护卫舰（守护级护卫舰）、955型战略核潜艇（北风之神级战略核潜艇）、苏-33战斗机、卡-28直升机等。</h4>
+				<div class="col-sm-4">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/“基洛”级常规潜艇.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<a data-toggle="collapse" href="#jl">“基洛”级常规潜艇 展开</a>
+							<div id="jl" class="collapse">
+								<p>编制：39人
+舰长：72.6米
+型宽：9.9米
+续航距离：7节航速水下通气管航行航程6000英里；3节航速水下潜航航程400英里
+航速：17节
+水上排水量：2,325吨
+水下排水量：3,076吨
+潜航深度：240米
+自持力：45天
+</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/“喀拉”级导弹巡洋舰.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<a data-toggle="collapse" href="#kl">“喀拉”级导弹巡洋舰 展开</a>
+							<div id="kl" class="collapse">
+								<p>编制：540人
+舰长：173.8米
+型宽：18.8米
+满载排水量：9,700吨
+续航距离：3000海里/30节 8800海里/15节
+航速：34节
+</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/基洛夫”级核动力导弹巡洋舰.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<a data-toggle="collapse" href="#jlf">基洛夫”级核动力导弹巡洋舰 展开</a>
+							<div id="jlf" class="collapse">
+								<p>编制：727人
+舰长：252米
+型宽：28.5米
+满载排水量：26,396吨
+续航距离：14000海里/30节
+航速：31节
+</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/“库兹涅佐夫海军上将”级常规动力航空母舰.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<a data-toggle="collapse" href="#063">“库兹涅佐夫”级常规动力航空母舰 展开</a>
+							<div id="063" class="collapse">
+								<p>编制：2,626人
+舰长：304.5米
+型宽：70米
+满载排水量：58,500吨
+续航距离：29节航速时3850英里，18节航速时8500英里
+航速：30节
+自持力：45天
+</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<h3 class="text-danger">陆军武器装备展示</h3>
+				<hr style="height:3px;border:none;border-top:3px double brown;" />
+				<h4 class="col-sm-8 col-sm-push-4" id="jj">俄罗斯陆军（俄语：Сухопутные войска Российской Федерации，英语：Ground Forces of the Russian Federation）成立于1992年5月7日，是俄军中规模最大的军种，其前身为解体后的苏联陆军驻俄部队。主要任务是歼灭敌方作战集团，夺占敌方占据的领土、某一区域或防线，火力打击敌方防御纵深，击退敌方纵深发展的进攻及实施的大规模空降。在1993年的宪政危机中，俄罗斯联邦陆军出动了坦克炮击了俄罗斯人民代表大会所在地——白宫，在1994年-1996年参与了第一次车臣战争，在1999年-2009年参与了第二次车臣战争，为镇压分裂势力做出了贡献。 [3]  除了打击国内分裂势力外，俄陆军在近年来还积极介入周边和地区事务。</h4>
+				<div class="col-sm-4 col-sm-pull-8">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/AK-74突击步枪.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<a data-toggle="collapse" href="#ak">AK-74突击步枪展开</a>
+							<div id="ak" class="collapse">
+								<p>口径：5.45毫米
+全枪长：928毫米
+全枪重：3.9千克
+弹匣容弹量：30发
+战斗射速：650发/分
+有效射程：400米
+</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/BTR-80装甲人员运输车.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<a data-toggle="collapse" href="#btr">BTR-80装甲人员运输车 展开</a>
+							<div id="btr" class="collapse">
+								<p>乘员与载员：10人
+车长：7.65米
+宽度：2.9米
+高度：2.35米
+战斗全重：13,600千克
+最大速度：80公里/小时
+最大行程：600公里
+</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/BM-30龙卷风式多管火箭炮.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<a data-toggle="collapse" href="#bm">BM-30龙卷风式多管火箭炮 展开</a>
+							<div id="bm" class="collapse">
+								<p>根据052C推测得出以下数据 <br>舰长：156米 型宽：17.5米 满载排水量：7,500吨 航速：30节
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/T-90主战坦克.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<a data-toggle="collapse" href="#t90">T-90主战坦克 展开</a>
+							<div id="t90" class="collapse">
+								<p>乘员与载员：3人
+车长：9.53米
+宽度：3.78米
+高度：2.226米
+战斗全重：46,500千克
+最大速度：65公里/小时
+最大行程：550公里
+</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+<h3 class="text-danger">空军武器装备展示</h3>
+				<hr style="height:3px;border:none;border-top:3px double brown;" />
+				<h4 class="col-sm-8 " id="jj">俄罗斯空天军（俄语：Воздушно-космические силы，英语：Russian Aerospace Forces）成立于2015年4月1日，由原俄罗斯联邦空军（俄语：Военно-воздушные cилы России，英语：Russian Air Force）和俄罗斯联邦空天防御部队（俄语：Войскавоздушно-космическойобороны，英语：Russian Aerospace Defence Forces）改编而成，其历史可追溯至前苏联时代的苏联空军。
+俄罗斯联邦空天军由空军、空天防御部队和太空军三大部分组成，现役兵力约为430000人（2015年数据），主力装备包括：苏-35战斗机、苏-27战斗机、苏-34战斗轰炸机、图-95轰炸机、图-160轰炸机等。
+				</h4>
+				<div class="col-sm-4">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/苏-30侧卫.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<a data-toggle="collapse" href="#s30">苏-30“侧卫”对地攻击机 展开</a>
+							<div id="s30" class="collapse">
+								<p>乘员：2人
+机长：22.93米
+翼展：14.7米
+机高：6.36米
+空重：17,700千克
+发动机：2台AL-31FL 涡轮风扇发动机
+最大起飞重量：34,500千克
+最大飞行速度：2,500千米每小时
+最大航程：3,000千米
+</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/苏-27战斗机.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<a data-toggle="collapse" href="#s27">苏-27战斗机 展开</a>
+							<div id="s27" class="collapse">
+								<p>乘员：1人
+机长：21.93米
+翼展：14.7米
+机高：5.93米
+空重：13,608千克
+发动机：2个АL-31F涡轮扇叶发动机
+最大起飞重量：30,000千克
+最大飞行速度：2,500千米每小时
+最大航程：3,790千米
+</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/米-171直升机.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<a data-toggle="collapse" href="#ml71">米-171直升机 展开</a>
+							<div id="ml71" class="collapse">
+								<p>乘员：30人
+机长：25.35米
+旋翼直径：21.29米
+机高：5.6米
+空重：7,055千克
+发动机：发动机采用两台1545千瓦2070马力的伊索托夫TV3-117VM涡轴发动机
+最大起飞重量：13,011千克
+最大飞行速度：250千米每小时
+最大航程：495千米
+</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/图-95“熊” 远程轰炸机和海上侦察攻击机.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<a data-toggle="collapse" href="#t95">图-95“熊” 远程轰炸机和海上侦察攻击机 展开</a>
+							<div id="t95" class="collapse">
+								<p>乘员：7人
+机长：49.5米
+翼展：51.1米
+机高：13.3米
+空重：90,000千克
+发动机：四具库兹涅佐夫NK-12MV型涡轮螺旋桨发动机
+最大起飞重量：188,000千克
+最大飞行速度：925千米每小时
+最大航程：15,000千米
+</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<h3 class="text-danger">留言评论</h3>
+				<hr style="height:3px;border:none;border-top:3px double brown;" />
+				<div class="col-sm-8">
+					<div id="pl">
+						<a href="#">
+							<img src="img/member3.jpg" width="5%" class="img-circle person  pull-left " />
+							<a href="#" class="pull-left">断桥残雪<span class="label label-danger ">VIP</span></a>
+						</a>
+						<p><br /><br />俄罗斯联邦会议，决定是否在俄罗斯境外动用俄国武装力量。</p>
+						<div id="hf">
+							<a href="#">查看回复</a>
+							<a href="#">举报</a>
+							<a href="#">分享</a>
+							<a href="#">回复(9)</a>
+							<a href="#">赞👍(13)</a>
+							<a href="#">踩👎(2)</a>
+							<a href="#" class="pull-right">06-19 12:58</a>
+						</div>
+						<hr style="height:1px;border:none;border-top:1px dotted #ADADAD;" />
+					</div>
+					<div id="pl">
+						<a href="#">
+							<img src="img/member2.jpg" width="5%" class="img-circle person  pull-left " />
+							<a href="#" class="pull-left">找不到</a>
+						</a>
+						<p><br /><br />我今天才知道俄罗斯也有境外驻军</p>
+						<div id="hf">
+							<a href="#">查看回复</a>
+							<a href="#">举报</a>
+							<a href="#">分享</a>
+							<a href="#">回复(5)</a>
+							<a href="#">赞👍(7)</a>
+							<a href="#">踩👎(2)</a>
+							<a href="#" class="pull-right">06-19 10:17</a>
+						</div>
+						<hr style="height:1px;border:none;border-top:1px dotted #ADADAD;" />
+					</div>
+					<div id="pl">
+						<a href="#">
+							<img src="img/member1.jpg" width="5%" class="img-circle person  pull-left " />
+							<a href="#" class="pull-left">还行吧<span class="label label-danger ">VIP</span></a>
+						</a>
+						<p><br /><br />2017年俄罗斯国防预算将下降25.5%，从3.8万亿卢比下降到2.8万亿卢比</p>
+						<div id="hf">
+							<a href="#">查看回复</a>
+							<a href="#">举报</a>
+							<a href="#">分享</a>
+							<a href="#">回复(13)</a>
+							<a href="#">赞👍(25)</a>
+							<a href="#">踩👎(2)</a>
+							<a href="#" class="pull-right">06-19 9:47</a>
+						</div>
+						<hr style="height:1px;border:none;border-top:1px dotted #ADADAD;" />
+					</div>
+					<div id="pl">
+						<a href="#">
+							<img src="img/member2.jpg" width="5%" class="img-circle person  pull-left " />
+							<a href="#" class="pull-left">人穷志短<span class="label label-danger ">VIP</span></a>
+						</a>
+						<p><br /><br />俄罗斯联邦武装力量的最高指挥官为俄罗斯联邦总统，现任总统为弗拉基米尔·普京。</p>
+						<div id="hf">
+							<a href="#">查看回复</a>
+							<a href="#">举报</a>
+							<a href="#">分享</a>
+							<a href="#">回复(15)</a>
+							<a href="#">赞👍(23)</a>
+							<a href="#">踩👎(4)</a>
+							<a href="#" class="pull-right">06-19 8:25</a>
+						</div>
+						<hr style="height:1px;border:none;border-top:1px dotted #ADADAD;" />
+					</div>
+					<div id="pl">
+						<a href="#">
+							<img src="img/member3.jpg" width="5%" class="img-circle person  pull-left " />
+							<a href="#" class="pull-left">老毛子<span class="label label-danger ">LV:9</span></a>
+						</a>
+						<p><br /><br />俄罗斯联邦武装力量有102.7万人，综合军事实力世界第二,仅次于美国。</p>
+						<div id="hf">
+							<a href="#">查看回复</a>
+							<a href="#">举报</a>
+							<a href="#">分享</a>
+							<a href="#">回复(33)</a>
+							<a href="#">赞👍(45)</a>
+							<a href="#">踩👎(16)</a>
+							<a href="#" class="pull-right">06-18 21:47</a>
+						</div>
+						<hr style="height:1px;border:none;border-top:1px dotted #ADADAD;" />
+					</div>
+					<textarea class="form-control" placeholder="参加讨论..." rows="5"></textarea><br>
+					<button class="btn btn-info pull-right" type="submit">发表</button>
+				</div>
+				<div class="col-sm-4">
+					<h4 class="text-danger">国内热门话题</h4>
+					<ul>
+						<li>
+							<a href="#"><span class="label label-danger pull-left">1</span>77集团军某旅在高原腹地考核 武直对目标实施模拟攻击</a>
+						</li>
+						<li>
+							<a href="#"><span class="label label-success pull-left">2</span>解放军高原实战化演练引关注 “00后”装备高原“亮剑”</a>
+						</li>
+						<li>
+							<a href="#"><span class="label label-info pull-left">3</span>直击第七十五集团军某旅等级评定考核 牵引训练向实战聚焦</a>
+						</li>
+					</ul>
+					<h4 class="text-danger">国际热门话题</h4>
+					<ul>
+						<li>
+							<a href="#"><span class="label label-danger pull-left">1</span>刚重新返回部署半个月 “罗斯福”号航母突发舰载机坠海事故</a>
+						</li>
+						<li>
+							<a href="#"><span class="label label-success pull-left">2</span>美国国防部发布新版太空防御战略 声称要确保“制天权”</a>
+						</li>
+						<li>
+							<a href="#"><span class="label label-info pull-left">3</span>北约与俄罗斯“脸贴脸”演习 擦枪走火危险系数大增</a>
+						</li>
+					</ul>
+					<h4 class="text-danger">快讯</h4>
+					<ul>
+						<li>
+							<a href="#"><span class="label label-danger pull-left">1</span>西部战区总医院：以战领训 夜间模拟实战救护训练</a>
+						</li>
+						<li>
+							<a href="#"><span class="label label-success pull-left">2</span>9天内第5次 解放军战机今天上午进入台湾空域，台如何回应？</a>
+						</li>
+						<li>
+							<a href="#"><span class="label label-info pull-left">3</span>印度在中印边境部署了多少部队？我们要时刻保持警惕</a>
+						</li>
+						<li>
+							<a href="#">
+								<a href="#"><span class="label label-default pull-left">4</span>疑似UFO？日本仙台上空出现白色不明球体 自卫队已出动</a>
+						</li>
+						<li>
+							<a href="#">
+								<a href="#"><span class="label label-default pull-left">5</span>台媒：解放军歼-10等多型军机今天再次进入台湾西南空域</a>
+						</li>
+						<li>
+							<a href="#">
+								<a href="#"><span class="label label-default pull-left">6</span>在海上躲避疫情两个月，美军“杜鲁门”号航母终于返回母港</a>
+						</li>
+						<li>
+							<a href="#">
+								<a href="#"><span class="label label-default pull-left">7</span>美国想让以色列与中国断绝关系？美媒直言：美国挡不住的</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="well">
+			<p>
+				<a href="子页4.html">联系我们</a>
+				<a href="子页4.html">关于我们</a>
+				<a href="子页4.html">版权声明</a>
+				<a href="子页4.html">服务条款</a> <br /> Copyright © 2020-2020 by 周锦城。<br />计应1952周锦城作业 ，如有侵权望告知 </p>
+		</div>
+	</body>
+
+</html>

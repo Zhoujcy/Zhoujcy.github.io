@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/index.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<title>中国军事实力</title>
+		<style type="text/css">
+			body {
+				background-image: url(img/5-1206010T011-50.gif);
+			}
+			
+			.navbar {
+				background-image: linear-gradient(270deg, #abcdef 20%, #fedbca 70%);
+				;
+				border: none;
+			}
+			
+			.navbar button span {
+				background-color: #fedbca;
+			}
+			
+			.navbar li a,
+			.navbar-brand {
+				color: black !important;
+				font-family: "微软雅黑";
+				font-size: 16px;
+			}
+			
+			.dropdown-menu {
+				background-color: #ABCDEF;
+			}
+			
+			.navbar-brand {
+				color: black;
+				font-family: "楷体";
+				font-size: 26px;
+			}
+			
+			.navbar li.active a {
+				color: #000;
+				background: #FFF;
+			}
+			
+			.tab-content li a {
+				color:#ABCDEF;
+				font-family: "微软雅黑";
+				font-size: 14px;
+				line-height: 25px;
+			}
+			
+			.tab-content li {
+				list-style: none;
+			}
+			
+			.tab-content li a strong {
+				background-color: red;
+				font-family: "微软雅黑";
+				color: white;
+				font-size: 10px;
+			}
+			
+			.panel-footer a {
+				color: brown;
+				padding: 25px;
+			}
+			
+			.panel a:hover {
+				color: brown;
+			}
+			
+			.panel-title {
+				font-family: "微软雅黑";
+				font-size: 20px;
+			}
+			
+			.panel {
+				border: none;
+				margin-top: 25px;
+				text-align: center;
+			}
+			
+			.label {
+				margin-top: 5px;
+			}
+			
+			.container {
+				margin-top: 80px;
+			}
+			
+			.text-danger {
+				margin-bottom: -35px;
+				line-height: 70px;
+			}
+			
+			.panel-body li {
+				list-style: none;
+				text-align: left;
+			}
+			
+			.nav-tabs li a {
+				color: brown;
+			}
+			
+			.panel-footer p {
+				text-align: left;
+			}
+			
+			.input-group-addon a {
+				color: brown;
+			}
+			
+			.modal-footer {
+				text-align: center;
+			}
+			
+			.modal-body div {
+				margin: 20px;
+			}
+			
+			.modal-body a {
+				color: brown;
+			}
+			
+			.well a {
+				color: #5E5E5E;
+				margin: 70px;
+			}
+			
+			.well {
+				color: #5E5E5E;
+				text-align: center;
+				line-height: 35px;
+				margin-top: 50px;
+			}
+			
+			#pl a {
+				color: #5E5E5E;
+				margin-top: 12px;
+			}
+			
+			#pl img {
+				margin-bottom: 50px;
+			}
+			
+			#pl p {
+				line-height: 25px;
+				font-size: 15px;
+			}
+			
+			#hf a {
+				color: #888888;
+				font-size: 12px;
+				margin: 10px;
+				padding-left: 30px;
+			}
+			
+			h4.text-danger {
+				margin-bottom: -15px;
+			}
+			
+			li {
+				list-style: none;
+				line-height: 25px;
+			}
+			
+			#jj {
+				line-height: 35px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<nav class="navbar navbar-fixed-top">
+			<div class="navbar-header">
+				<a href="#" class="navbar-brand">中国军事实力</a>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="mynav">
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a href="index.html">主页</a>
+					</li>
+					<li class="active">
+						<a href="子页1.html">中国</a>
+					</li>
+					<li>
+						<a href="子页2.html">美国</a>
+					</li>
+					<li>
+						<a href="子页3.html">俄罗斯</a>
+					</li>
+					<li>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">更多
+							<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#">亚 太</a>
+							</li>
+							<li>
+								<a href="#">中 东</a>
+							</li>
+							<li>
+								<a href="#">北 欧</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a data-toggle="modal" href="#mymodal"><span class="glyphicon glyphicon-user"></span> 注册</a>
+					</li>
+					<li>
+						<a data-toggle="modal" href="#mymodal"><span class="glyphicon glyphicon-log-in"></span> 登录</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="container">
+			<img src="img/子页1.jpg" />
+			<div class="row">
+
+			</div>
+			<div class="modal" id="mymodal">
+				<div class="modal-dialog">
+					<div class="modal-content col-sm-8 col-sm-push-2">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h3 class="text-center">请先注册！</h3>
+						</div>
+						<br />
+						<div class="modal-body">
+							<div class="input-group">
+								<span class="input-group-addon">+86</span>
+								<input type="text" placeholder="请输入手机号" class="form-control" />
+							</div>
+							<div class="input-group">
+								<input type="text" placeholder="短信验证码" class="form-control" />
+								<span class="input-group-addon"><a href="#">获取验证码</a></span>
+							</div>
+							<button type="button" class="btn btn-primary btn-group-lg btn-danger col-sm-12">注册</button>
+							<p>如该手机号未曾注册过本网账号，将为您自动注册进行注册即表示您同意并愿意遵守本军事网站
+								<a href="#">用户协议</a>和
+								<a href="#">隐私协议</a>
+							</p>
+						</div>
+						<br />
+						<div class="modal-footer">
+							<p>——— 社交账号登录 ———</p>
+							<button type="button" class="btn btn-default " data-dismiss="modal">退出</button>
+							<button type="button" class="btn btn-info ">QQ</button>
+							<button type="button" class="btn btn-info ">微信</button>
+							<button type="button" class="btn btn-info ">微博</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<h3 class="text-danger">海军武器装备展示</h3>
+				<hr style="height:3px;border:none;border-top:3px double brown;" />
+				<h4 class="col-sm-8 " id="jj">中国人民解放军海军 编辑中国人民解放军海军（英文：People's Liberation Army Navy，缩写：PLAN或PLA Navy，舰艇前缀：CNS-Chinese Naval Ship 或PLANS-PLA Navy Ship），是中华人民共和国的海上武装力量，中国人民解放军的海上军种。中国人民解放军海军以舰艇部队和海军航空兵为主体，其主要任务是独立或协同陆军、空军防御敌人从海上的入侵，保卫领海主权，维护海洋权益。其作战部队——除了海军总部直辖外，分布于北海、东海、南海三支舰队中。海军是海上作战的主力，具有在水面、水下、空中作战的能力。</h4>
+				<div class="col-sm-4">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/905型“太仓”级补给舰.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<a data-toggle="collapse" href="#taic">905型“太仓”级补给舰 展开</a>
+							<div id="taic" class="collapse">
+								<p>编制：180人舰长：168.2米型宽：21.8米满载排水量：21,740吨续航距离：18000海里航速：18.5节</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/056型江岛级.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<a data-toggle="collapse" href="#jiangdao">056型江岛级 展开</a>
+							<div id="jiangdao" class="collapse">
+								<p>编制：80人 舰长：89米 型宽：12米 满载排水量：1,500吨 续航距离：1738海里/18节 航速：28节
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/052D型(旅洋Ⅲ级).jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<a data-toggle="collapse" href="#lvyang">052D型(旅洋Ⅲ级) 展开</a>
+							<div id="lvyang" class="collapse">
+								<p>根据052C推测得出以下数据 <br>舰长：156米 型宽：17.5米 满载排水量：7,500吨 航速：30节
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/Varyga辽宁舰.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<a data-toggle="collapse" href="#Varyga">Varyga辽宁舰 展开</a>
+							<div id="Varyga" class="collapse">
+								<p>编制：1,000人 舰长：304.5米 型宽：75米 满载排水量：67,500吨 续航距离：7000海里/18节；3850海里/32 节 航速：29节
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<h3 class="text-danger">陆军武器装备展示</h3>
+				<hr style="height:3px;border:none;border-top:3px double brown;" />
+				<h4 class="col-sm-8 col-sm-push-4" id="jj">中国人民解放军陆军是人民解放军的主要军种，是陆地作战的主力，是人民解放军各军兵种中历史最久，在新中国建立前后的历次作战中发挥最出色的，也是社会主义现代化建设和各种抢险救灾中的中坚力量。中国人民解放军诞生于1927年8月1日，建立之初仅由陆军组成，至2018年已经91周年。它经历了中国工农革命军、中国工农红军、八路军和新四军等阶段，在1946年10月改称为中国人民解放军。
+中国人民解放军陆军现主要由步兵（摩托化步兵、机械化步兵）、炮兵（地面炮兵、高射炮兵）、装甲兵、工程兵、通讯兵、防化兵和侦察兵、电子对抗、汽车兵、测绘兵、气象兵等专业部队组成。</h4>
+				<div class="col-sm-4 col-sm-pull-8">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/95式步枪.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<a data-toggle="collapse" href="#95">95式步枪 展开</a>
+							<div id="95" class="collapse">
+								<p>口径：5.8毫米 全枪长：743毫米 全枪重：3.3千克 弹匣容弹量：30发 战斗射速：100发/分 有效射程：400米
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/ZBD-04式步兵战车.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<a data-toggle="collapse" href="#zbd">ZBD-04式步兵战车 展开</a>
+							<div id="zbd" class="collapse">
+								<p>乘员与载员：10人 战斗全重：215,000千克 最大速度：75公里/小时 最大行程：600公里
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/红箭8反坦克导弹.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<a data-toggle="collapse" href="#hj8">红箭8反坦克导弹 展开</a>
+							<div id="hj8" class="collapse">
+								<p>弹长：0.875米 弹径：0.12米 弹重：11.2千克 射程：3千米 制导系统：有线传输指令
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/红旗-9(HQ-9)远程防空导弹系统.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<a data-toggle="collapse" href="#hq9">红旗-9(HQ-9)远程防空导弹系统 展开</a>
+							<div id="hq9" class="collapse">
+								<p>弹长：6.8米 弹重：1,300千克 射程：200千米 制导系统：惯性导引+末端主动雷达 最大速度：4,729.2千米/小时
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<h3 class="text-danger">空军武器装备展示</h3>
+				<hr style="height:3px;border:none;border-top:3px double brown;" />
+				<h4 class="col-sm-8 " id="jj">中国人民解放军海军 编辑中国人民解放军海军（英文：People's Liberation Army Navy，缩写：PLAN或PLA Navy，舰艇前缀：CNS-Chinese Naval Ship 或PLANS-PLA Navy Ship），是中华人民共和国的海上武装力量，中国人民解放军的海上军种。中国人民解放军海军以舰艇部队和海军航空兵为主体，其主要任务是独立或协同陆军、空军防御敌人从海上的入侵，保卫领海主权，维护海洋权益。其作战部队——除了海军总部直辖外，分布于北海、东海、南海三支舰队中。海军是海上作战的主力，具有在水面、水下、空中作战的能力。</h4>
+				<div class="col-sm-4">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/歼-31战斗机.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<a data-toggle="collapse" href="#j31">歼-31战斗机 展开</a>
+							<div id="j31" class="collapse">
+								<p>乘员：1人 机长：16.9米 翼展：11.5米 机高：4.8米 空重：12,500千克 发动机：9500KGF发动机 最大起飞重量：28,000千克
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/歼-16战机.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<a data-toggle="collapse" href="#j16">歼-16战机 展开</a>
+							<div id="j16" class="collapse">
+								<p>乘员：2人 机长：21.19米 翼展：14.7米 机高：5.9米 发动机：AL-31F涡扇发动机 最大飞行速度：1,438千米每小时 最大航程：4,288千米
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/FC-1“枭龙”多用途攻击机.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<a data-toggle="collapse" href="#fc1">FC-1“枭龙”多用途攻击机 展开</a>
+							<div id="fc1" class="collapse">
+								<p>乘员：1人 机长：14.93米 翼展：9.46米 机高：4.78米 空重：6,586千克 发动机：俄制RD-93发动机 最大起飞重量：12,383千克 最大飞行速度：1,960千米每小时 最大航程：3,482千米
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<a href="#">
+								<img src="img/歼-20.jpg" width="100%" />
+							</a>
+						</div>
+						<div class="panel-footer">
+							<a data-toggle="collapse" href="#j20">歼-20战斗机 展开</a>
+							<div id="j20" class="collapse">
+								<p>乘员：1人 机长：20.3米 翼展：12.88米 机高：4.45米 空重：17,000千克 发动机：涡扇15发动机 最大起飞重量：37,000千克 最大飞行速度：3,062.7千米每小时 最大航程：6,000千米
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<h3 class="text-danger">留言评论</h3>
+				<hr style="height:3px;border:none;border-top:3px double brown;" />
+				<div class="col-sm-8">
+					<div id="pl">
+						<a href="#">
+							<img src="img/member3.jpg" width="5%" class="img-circle person  pull-left " />
+							<a href="#" class="pull-left">老兵<span class="label label-danger ">VIP</span></a>
+						</a>
+						<p><br /><br />中国采征兵制和募兵制相结合，搭配民兵与后备军事动员等制度。</p>
+						<div id="hf">
+							<a href="#">查看回复</a>
+							<a href="#">举报</a>
+							<a href="#">分享</a>
+							<a href="#">回复(9)</a>
+							<a href="#">赞👍(13)</a>
+							<a href="#">踩👎(0)</a>
+							<a href="#" class="pull-right">06-19 12:58</a>
+						</div>
+						<hr style="height:1px;border:none;border-top:1px dotted #ADADAD;" />
+					</div>
+					<div id="pl">
+						<a href="#">
+							<img src="img/member2.jpg" width="5%" class="img-circle person  pull-left " />
+							<a href="#" class="pull-left">加菲猫</a>
+						</a>
+						<p><br /><br />中国人民解放军总员额为200万人，为世界规模最大的正规军队。</p>
+						<div id="hf">
+							<a href="#">查看回复</a>
+							<a href="#">举报</a>
+							<a href="#">分享</a>
+							<a href="#">回复(5)</a>
+							<a href="#">赞👍(7)</a>
+							<a href="#">踩👎(0)</a>
+							<a href="#" class="pull-right">06-19 10:17</a>
+						</div>
+						<hr style="height:1px;border:none;border-top:1px dotted #ADADAD;" />
+					</div>
+					<div id="pl">
+						<a href="#">
+							<img src="img/member1.jpg" width="5%" class="img-circle person  pull-left " />
+							<a href="#" class="pull-left">江南<span class="label label-danger ">VIP</span></a>
+						</a>
+						<p><br /><br />等祖国统一了，解放军就可以改名国防军了。</p>
+						<div id="hf">
+							<a href="#">查看回复</a>
+							<a href="#">举报</a>
+							<a href="#">分享</a>
+							<a href="#">回复(13)</a>
+							<a href="#">赞👍(25)</a>
+							<a href="#">踩👎(0)</a>
+							<a href="#" class="pull-right">06-19 9:47</a>
+						</div>
+						<hr style="height:1px;border:none;border-top:1px dotted #ADADAD;" />
+					</div>
+					<div id="pl">
+						<a href="#">
+							<img src="img/member2.jpg" width="5%" class="img-circle person  pull-left " />
+							<a href="#" class="pull-left">真的吗<span class="label label-danger ">VIP</span></a>
+						</a>
+						<p><br /><br />中国拥有洲际弹道导弹、弹道导弹潜艇、战略轰炸机组成的三位一体的核打击能力。</p>
+						<div id="hf">
+							<a href="#">查看回复</a>
+							<a href="#">举报</a>
+							<a href="#">分享</a>
+							<a href="#">回复(15)</a>
+							<a href="#">赞👍(23)</a>
+							<a href="#">踩👎(0)</a>
+							<a href="#" class="pull-right">06-19 8:25</a>
+						</div>
+						<hr style="height:1px;border:none;border-top:1px dotted #ADADAD;" />
+					</div>
+					<div id="pl">
+						<a href="#">
+							<img src="img/member3.jpg" width="5%" class="img-circle person  pull-left " />
+							<a href="#" class="pull-left">不会吧<span class="label label-danger ">LV:9</span></a>
+						</a>
+						<p><br /><br />中国除了被视为拥有核武器的国家外，还被视为军事强国和潜在军事超级大国。</p>
+						<div id="hf">
+							<a href="#">查看回复</a>
+							<a href="#">举报</a>
+							<a href="#">分享</a>
+							<a href="#">回复(33)</a>
+							<a href="#">赞👍(45)</a>
+							<a href="#">踩👎(0)</a>
+							<a href="#" class="pull-right">06-18 21:47</a>
+						</div>
+						<hr style="height:1px;border:none;border-top:1px dotted #ADADAD;" />
+					</div>
+					<textarea class="form-control" placeholder="参加讨论..." rows="5"></textarea><br>
+					<button class="btn btn-info pull-right" type="submit">发表</button>
+				</div>
+				<div class="col-sm-4">
+					<h4 class="text-danger">国内热门话题</h4>
+					<ul>
+						<li>
+							<a href="#"><span class="label label-danger pull-left">1</span>77集团军某旅在高原腹地考核 武直对目标实施模拟攻击</a>
+						</li>
+						<li>
+							<a href="#"><span class="label label-success pull-left">2</span>解放军高原实战化演练引关注 “00后”装备高原“亮剑”</a>
+						</li>
+						<li>
+							<a href="#"><span class="label label-info pull-left">3</span>直击第七十五集团军某旅等级评定考核 牵引训练向实战聚焦</a>
+						</li>
+					</ul>
+					<h4 class="text-danger">国际热门话题</h4>
+					<ul>
+						<li>
+							<a href="#"><span class="label label-danger pull-left">1</span>刚重新返回部署半个月 “罗斯福”号航母突发舰载机坠海事故</a>
+						</li>
+						<li>
+							<a href="#"><span class="label label-success pull-left">2</span>美国国防部发布新版太空防御战略 声称要确保“制天权”</a>
+						</li>
+						<li>
+							<a href="#"><span class="label label-info pull-left">3</span>北约与俄罗斯“脸贴脸”演习 擦枪走火危险系数大增</a>
+						</li>
+					</ul>
+					<h4 class="text-danger">快讯</h4>
+					<ul>
+						<li>
+							<a href="#"><span class="label label-danger pull-left">1</span>西部战区总医院：以战领训 夜间模拟实战救护训练</a>
+						</li>
+						<li>
+							<a href="#"><span class="label label-success pull-left">2</span>9天内第5次 解放军战机今天上午进入台湾空域，台如何回应？</a>
+						</li>
+						<li>
+							<a href="#"><span class="label label-info pull-left">3</span>印度在中印边境部署了多少部队？我们要时刻保持警惕</a>
+						</li>
+						<li>
+							<a href="#">
+								<a href="#"><span class="label label-default pull-left">4</span>疑似UFO？日本仙台上空出现白色不明球体 自卫队已出动</a>
+						</li>
+						<li>
+							<a href="#">
+								<a href="#"><span class="label label-default pull-left">5</span>台媒：解放军歼-10等多型军机今天再次进入台湾西南空域</a>
+						</li>
+						<li>
+							<a href="#">
+								<a href="#"><span class="label label-default pull-left">6</span>在海上躲避疫情两个月，美军“杜鲁门”号航母终于返回母港</a>
+						</li>
+						<li>
+							<a href="#">
+								<a href="#"><span class="label label-default pull-left">7</span>美国想让以色列与中国断绝关系？美媒直言：美国挡不住的</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="well">
+			<p>
+				<a href="子页4.html">联系我们</a>
+				<a href="子页4.html">关于我们</a>
+				<a href="子页4.html">版权声明</a>
+				<a href="子页4.html">服务条款</a> <br /> Copyright © 2020-2020 by 周锦城。<br />计应1952周锦城作业 ，如有侵权望告知 </p>
+		</div>
+	</body>
+
+</html>

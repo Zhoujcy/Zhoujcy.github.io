@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/index.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<title>联系我们</title>
+		<style type="text/css">
+			body {
+				background-image: url(img/5-13050G33952.gif);
+			}
+			
+			.navbar {
+				background-image: linear-gradient(270deg, #abcdef 20%, #fedbca 70%);
+				;
+				border: none;
+			}
+			
+			.navbar button span {
+				background-color: #fedbca;
+			}
+			
+			.navbar li a,
+			.navbar-brand {
+				color: black !important;
+				font-family: "微软雅黑";
+				font-size: 16px;
+			}
+			
+			.dropdown-menu {
+				background-color: #ABCDEF;
+			}
+			
+			.navbar-brand {
+				color: black;
+				font-family: "楷体";
+				font-size: 26px;
+			}
+			
+			.navbar li.active a {
+				color: #000;
+				background: #FFF;
+			}
+			
+			.well a {
+				color: #5E5E5E;
+				margin: 70px;
+			}
+			
+			.well {
+				color: #5E5E5E;
+				text-align: center;
+				line-height: 35px;
+				margin-top: 50px;
+			}
+			
+			#yj1 {
+				text-align: center;
+				font-family: "微软雅黑";
+				font-size: 18px;
+				line-height: 50px;
+			}
+			
+			#yj2 input {
+				margin-top: 10px;
+			}
+			
+			.text-center {
+				color: brown;
+			}
+		</style>
+	</head>
+
+	<body>
+		<nav class="navbar navbar-fixed-top">
+			<div class="navbar-header">
+				<a href="#" class="navbar-brand">联系我们</a>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="mynav">
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a href="index.html">主页</a>
+					</li>
+					<li>
+						<a href="子页1.html">中国</a>
+					</li>
+					<li>
+						<a href="子页2.html">美国</a>
+					</li>
+					<li>
+						<a href="子页3.html">俄罗斯</a>
+					</li>
+					<li class="active">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">更多
+							<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#">亚 太</a>
+							</li>
+							<li>
+								<a href="#">中 东</a>
+							</li>
+							<li>
+								<a href="#">北 欧</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a data-toggle="modal" href="#mymodal"><span class="glyphicon glyphicon-user"></span> 注册</a>
+					</li>
+					<li>
+						<a data-toggle="modal" href="#mymodal"><span class="glyphicon glyphicon-log-in"></span> 登录</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="container">
+			<img src="img/子页1.jpg" />
+			<div class="well">
+				<a href="#">
+					<h2 class="text-center">联系我们</h2></a>
+				<div class="row">
+					<div class="col-sm-5" id="yj1">
+						<p>联系我们，我们24小时内给你回电。</p>
+						<p><span class="glyphicon glyphicon-map-marker"></span> 中国·武汉</p>
+						<p><span class="glyphicon glyphicon-phone"></span> 12345678910</p>
+						<p><span class="glyphicon glyphicon-envelope"></span> 电子邮件@12345678910.com</p>
+					</div>
+					<div class="col-sm-7" id="yj2">
+						<div class="row">
+							<div class="col-sm-6">
+								<input class="form-control" placeholder="姓名" type="text" required/>
+							</div>
+							<div class="col-sm-6">
+								<input class="form-control" placeholder="联系方式" type="text" required/>
+							</div>
+							<div class="col-sm-12">
+								<input class="form-control" placeholder="住址" type="text" required/>
+							</div>
+						</div>
+						<br>
+						<textarea class="form-control" placeholder="期待您的宝贵建议..." rows="5"></textarea><br>
+						<button class="btn btn-default pull-right" type="submit">发送</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="well">
+			<p>
+				<a href="子页4.html">联系我们</a>
+				<a href="子页4.html">关于我们</a>
+				<a href="子页4.html">版权声明</a>
+				<a href="子页4.html">服务条款</a> <br /> Copyright © 2020-2020 by 周锦城。<br />计应1952周锦城作业 ，如有侵权望告知 </p>
+		</div>
+	</body>
+
+</html>
